@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+    color: #222;
+    /* background-color:#f7f6f0; */
+    background: yellow;
+}
+
+/****************************************
+NAVBAR OF THE PAGE
+*****************************************/
+
+.nav a{
+    text-decoration: none;
+    color:yellow ;
+}
+
+.main-nav{
+    background-color: darkblue;
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-weight: 700px;
+}
+
+.nav .name{
+    color: yellow;
+    display: block;
+    /* margin-right: auto/; */
+}
+
+/****************************************************
+MAIN BODY
+****************************************************/
+
+.one{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 100%;
+    background: white;
+}
+.two{
+    height: 1000px;
+    width: 100%;
+   
+}
+.test{
+    padding: 20px;
+}
+img[src]{
+    height: 350px;
+    border-radius: 50%;
+    border: 3px solid darkblue;
+}
+.test h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.aboutMe{
+    width: 40%;
+    padding: 20px;
+    height: 350px;
+}
+.aboutMe h1{
+    text-align: center;
+    font-family: cursive;
+}
+.aboutMe p{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+ #container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.same{
+    height: 300px;
+    width: 40%;
+    margin: 50px auto;
+    background: navy;
+    margin-top: 200px;
+    border-radius: 15px;
+}
+.same ul{
+    color: yellow;
+    font-size: 22px;
+    font-family: cursive;
+}
+.upper ul li span{
+    font-size: 15px;
+}
+.upper{
+    margin-top:-1px;
+}
+.two #container h1{
+    color: darkblue;
+    width: 40%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    background: yellow;
+}
+.calc{
+    margin-top: -100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.calc p{
+    font-size: 20px;
+    color: darkblue;
+    font-family: cursive;
+}
+.calc a{
+    text-decoration: none;
+    color: yellow;
+    font-family: cursive;
+    background: darkblue;
+    border-radius: 10px;
+    padding: 10px;
+}

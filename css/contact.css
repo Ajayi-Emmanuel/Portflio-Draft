@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #222;
+    background-color: #f7f6f0;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.main-nav{
+    background-color: darkblue;
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    /* position: sticky; */
+    text-align: center;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-weight: 700px;
+}
+
+.nav .name{
+    color: yellow;
+    display: block;
+}
+
+section{
+    background: darkblue;
+    color: yellow;
+    width: 30%;
+    margin: 10% auto;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: cursive;
+}
+button{
+    padding: 5px;
+    font-size: 17px;
+    font-family: monospace;
+    border-radius: 10px;
+    border-style: none;
+    padding: 8px;
+    background: yellow;
+    color: darkblue;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 2px yellow;
+}
+input[type],
+select{
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+}
+footer,
+footer a{
+    color: darkblue;
+    font-family: cursive;
+    margin-top: -50px;
+}

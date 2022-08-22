@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #222;
+    background-color: #f7f6f0;
+}
+
+/****************************************
+NAVBAR OF THE PAGE
+*****************************************/
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.main-nav{
+    background-color: darkblue;
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    position: sticky;
+    text-align: center;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-weight: 700px;
+}
+
+.nav .name{
+    color: yellow;
+    display: block;
+}
+
+/****************************************
+MAIN OF THE PAGE
+*****************************************/
+main{
+    padding: 15px;
+    width: 30%;
+    margin:10% auto;
+    border-radius: 15px;
+    background: darkblue;
+    font-family: cursive;
+    font-size: 18px;
+    color: yellow;
+}
+button{
+    padding: 8px;
+    font-size: 15px;
+    font-family: cursive;
+    background: yellow;
+    border-radius: 10px;
+    font-weight: bolder;
+    border-style: none;
+    box-shadow: 1px 1px 10px 2px yellow;
+    color: darkblue;
+}
+
+input[type]{
+    padding: 3px;
+    border-radius: 5px;
+    width: 50%;
+}
+footer,
+footer a{
+    color: darkblue;
+    font-family: cursive;
+    margin-top: -50px;
+    border-style: thin;
+}

@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #222;
+}
+
+/*******************************************************
+HEADER OF THE PAGE
+********************************************************/
+
+a{
+    text-decoration: none;
+    color:yellow ;
+}
+
+.main-nav{
+    background-color: darkblue;
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-weight: 700px;
+}
+
+.nav .name{
+    color: yellow;
+    display: block;
+}
+
+/*****************************************************
+SECTION OF PAGE
+****************************************************/
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    font-family:Arial, Helvetica, sans-serif
+}
+.calc{
+    background-color: white;
+    color: black;
+    padding: 20px 10px;
+    border:3px solid white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px 1px rgb(160, 148, 148);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 30%;
+    margin: 3% auto;
+}
+.textbox{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    /* padding: 30px; */
+}
+.diff{
+    color: blue;
+    background: rgb(202, 202, 202);
+}
+.equal{
+    background: rgb(153, 226, 44);
+}
+
+/*******************************************************
+FOOTER OF THE PAGE
+********************************************************/
+
+footer,
+footer a{
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+}
